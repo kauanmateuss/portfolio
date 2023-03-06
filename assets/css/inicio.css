@@ -1,0 +1,10 @@
+@charset "UTF-8";
+
+#inicio {
+    width: 100%;
+    height: 100vh;
+    background: url("../imagens/render_loft_duplex.jpg") no-repeat;
+    background-size: cover;
+    background-position: center center;
+    border-bottom: 2px solid #DBCA83;
+}

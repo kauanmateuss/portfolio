@@ -1,0 +1,57 @@
+#galeria {
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+    border-bottom: 2px solid #DBCA83;
+
+}
+
+.imagens {
+
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#galeria img {
+    width: 50%
+}
+
+.titulo {
+    grid-area: t;
+    text-align: center;
+    padding: 60px 70px;
+    color: #DBCA83;
+    font-family: 'Quando', sans-serif;
+    font-size: 25pt;
+
+}
+
+.foto-1 {
+    grid-area: f1;
+
+}
+
+.foto-2 {
+    grid-area: f2;
+    
+}
+
+.foto-3 {
+    grid-area: f3;
+    
+}
+
+.foto-4 {
+    grid-area: f4;
+    
+}
+
+.foto-5 {
+    grid-area: f5;
+    
+}
+
+.foto-6 {
+    grid-area: f6;
+    
+}

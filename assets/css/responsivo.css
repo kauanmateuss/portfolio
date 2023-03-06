@@ -1,0 +1,74 @@
+@charset "UTF-8";
+
+/* -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-= MOBILE -=-=-=--=-=-=-=-=-=-=--=-=-=-=-=-=-= */
+
+@media screen and (max-width: 768px) {
+
+
+
+
+    header {
+        display: none;
+    }
+
+    #curriculo {
+        max-width: 768px;
+        min-width: 300px;
+
+    }
+
+    #curriculo img {
+        width: 400px;
+    }
+
+    #galeria {
+        max-width: 768px;
+        min-width: 300px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #galeria img {
+        width: 100%;
+        z-index: 1;
+    }
+
+}
+
+/* -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-== DESKTOP -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-= */
+
+@media screen and (min-width: 768px) and (max-width: 1440px) {
+
+    header {
+        background-color: darkolivegreen;
+        max-width: 100%;
+        min-width: 768px;
+    }
+
+    .ajustador-header {
+        max-width: 1000px;
+        min-width: 768px;
+        margin: auto;
+        display: flex;
+    }
+
+    .navegar {
+        width: 450px;
+    }
+
+    #curriculo {
+        max-width: 1200px;
+    }
+
+    #curriculo img {
+        max-width: 700px;
+    }
+
+    #galeria h1 {
+        text-align: center;
+    }
+
+
+}

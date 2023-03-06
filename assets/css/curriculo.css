@@ -1,0 +1,19 @@
+#curriculo {
+    padding-top: 50px;
+    text-align: center;
+    border-bottom: 2px solid #DBCA83;
+}
+
+#curriculo h1 {
+    text-align: center;
+    padding-top: 20px;
+    color: #DBCA83;
+    font-family: 'Quando', sans-serif;
+    font-size: 25pt;
+}
+
+#curriculo img {
+    width: 900px;
+    padding-top: 50px;
+    border-radius: 20px;
+}
